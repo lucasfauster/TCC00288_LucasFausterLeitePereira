@@ -1,6 +1,10 @@
 CREATE FUNCTION multiplicaMatrizes(mat1 float[][], mat2 float[][]) RETURNS float[][] AS $$
 DECLARE
     resp float[][];
+    mat1lin int;
+    mat1col int;
+    mat2lin int;
+    mat2col int;
 BEGIN
     mat1lin := array_ndims(mat1);
     mat1col :=  array_ndims(mat1[0]);
@@ -23,3 +27,4 @@ BEGIN
     RETURN resp;
 END;
 $$ LANGUAGE plpgsql;
+
