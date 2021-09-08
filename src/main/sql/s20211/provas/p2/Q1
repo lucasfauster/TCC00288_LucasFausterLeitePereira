@@ -1,0 +1,6 @@
+Uma transação é um programa ou
+processo que inclui um ou mais acessos ao banco de
+dados, como a leitura, atualização ou deleção de seus registros.
+Ou seja, uma transação pode fazer
+que alguns dados sejam lidos e outros, gravados no
+banco de dados.

@@ -1,0 +1,11 @@
+T1: {R(Y), R(X), W(X)}
+T2: {R(X), R(Y), W(Y)}
+
+      T2           T1
+read_lock(X) | read_lock(Y) 
+read_item(X) | read_item(Y)
+write_lock(Y)| write_lock(x)
+unlock(X)    | unlock(Y)
+read_item(Y) | read_item(X)
+write_item(Y)| write_item(X)
+unlock(Y)    | unlock(X)

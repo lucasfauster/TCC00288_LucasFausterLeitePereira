@@ -1,0 +1,12 @@
+O SGBD precisa garantir as seguintes propriedades:
+A propriedade de isolamento, que garante que cada
+transação pareça executar isoladamente das demais.
+A propriedade de atomicidade garante que todas as operações em uma transação
+sejam executadas ou que nenhuma seja.
+A propriedade de consistência,que garante que, se ela for completamente executada do
+início ao fim sem interferência de outras transações, ela
+deve manter a consistencia do estado do banco de dados.
+E a propriedade de durabilidade, que garante que,
+se as mudanças aplicadas ao banco de dados pela transação
+forem confirmada, elas precisam persistir no banco de
+dados. Essas mudanças não devem ser perdidas por causa de alguma falha.

@@ -1,0 +1,4 @@
+Uma schedule é uma ordenação das operações das transações
+que precisa ser ordenada baseada nas operações que tais
+transações irão realizar, para que haja o mínimo possível
+de bloqueios ou conflitos dessas transações.

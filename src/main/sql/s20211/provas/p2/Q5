@@ -1,0 +1,8 @@
+Outra técnica seria o bloqueio de certificação, 
+que determina que quando uma transação T 
+estiver pronta para confirmar, ela deve obter um bloqueio 
+de certificação em todos os itens sobre os quais atualmente mantém 
+bloqueios de gravação antes que possa confirmar. Tais bloqueios são exclusivos 
+e quando são adquiridos, a versão confirmada X do item de dados é definida como 
+o valor da versão X’, a versão X’ é descartada e os bloqueios de certificação 
+são então liberados.
